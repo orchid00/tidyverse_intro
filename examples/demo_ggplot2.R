@@ -1,5 +1,4 @@
 # Description: Introduction to tidyverse 
-# Elixir Belgium workshop
 
 # If you haven't installed tidyverse, please uncomment the following line
 # install.packages("tidyverse")

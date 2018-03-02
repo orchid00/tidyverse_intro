@@ -1,5 +1,4 @@
 # Description: Introduction to tidyverse 
-# Elixir Belgium workshop
 
 # load the package tidyverse
 library(tidyverse)

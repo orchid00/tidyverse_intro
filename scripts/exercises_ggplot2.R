@@ -1,5 +1,4 @@
 # Description: Introduction to tidyverse
-#              Elixir Belgium workshop
 #              Exercises ggplot2
 # Date: 
 # Author:

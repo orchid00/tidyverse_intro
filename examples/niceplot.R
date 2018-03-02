@@ -1,5 +1,4 @@
 # Description: Introduction to tidyverse
-# Elixir Belgium workshop
 # Example
 # Note: recommended to start new session for each script (Session > New Session)
 
