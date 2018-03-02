@@ -1,9 +1,0 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-.git
-.gitignore
-data/2018*
-plots/*png
-examples/ex_*
