@@ -34,10 +34,11 @@ Install the complete tidyverse with:
 
     install.packages("tidyverse")
 
-## How is this repositiory structured?
+## How is this repository structured?
 
 - You can clone or download this repository to your computer.
 - We will go trough the material together and allow suficient time for exercises and questions.
+- If you do this on your own the slides will inform you more.
 
 ### Directory layout
 
@@ -53,7 +54,8 @@ welcome to use any other IDE of your preference.
 - The `data` directory contains data used in the analysis. 
 Important: treat data as read only.
 - The `plots` directory contains your plots. 
-Important: this directory only contains generated files. Treat any generated output as disposable.
+Important: this directory should only contain generated files. 
+Treat any generated output as disposable.
 
 
 ## Attribution
