@@ -1,0 +1,6 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+./data/2018-03-01_ekaryote_genomes.txt
+plots/*
