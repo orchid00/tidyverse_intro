@@ -5,5 +5,5 @@
 .git
 .gitignore
 data/2018-03-01_ekaryote_genomes.txt
-plots/*
+plots/*png
 examples/ex_*
