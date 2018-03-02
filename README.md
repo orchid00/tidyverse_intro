@@ -37,7 +37,7 @@ Install the complete tidyverse with:
 ## How is this repository structured?
 
 - You can clone or download this repository to your computer.
-- We will go trough the material together and allow suficient time for exercises and questions.
+- We will go trough the material together and allow sufficient time for exercises and questions.
 - If you do this on your own the slides will inform you more.
 
 ### Directory layout
