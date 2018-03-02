@@ -1,8 +1,7 @@
 # Description: Introduction to tidyverse
 # Elixir Belgium workshop
 # Example
-# These are not the only options to the exercises feel free to do it differently
-# Note: recommended to start new session for each script
+# Note: recommended to start new session for each script (Session > New Session)
 
 # If you haven't installed tidyverse, please uncomment the following line
 # install.packages("tidyverse")

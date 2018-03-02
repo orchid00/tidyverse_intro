@@ -52,3 +52,5 @@ ggplot(plants, aes(x = gc, y = size_mb, color = subgroup)) +
 ggsave("plots/scatterplot_GC_by_size.png")
 
 table(plants$subgroup)
+
+# Go to scripts/exercises_ggplot2.R

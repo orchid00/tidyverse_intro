@@ -65,34 +65,36 @@ groups(animals2)
 # now summarise
 animals2 <- summarise(animals2,
                    count_genomes = n())
-# after summarize no need to worry about ungroup
+# after summarise no need to worry about ungroup
 animals2 <- arrange(animals2, desc(count_genomes))
 head(animals2, n = 15)
 dim(animals2)
 # mutate will add a column to the end
 glimpse(animals2)
 
+## The pipe operator!!!
 ## group-wise mutate
-animals3 <- select(animals, organism_name, size_mb)
-animals3 <- group_by(animals3, organism_name)
-animals3 <- mutate(animals3, n = n(), mean_genome_size = mean(size_mb))
-# now we can also use arrange
-animals3 <- arrange(animals3, organism_name, desc(mean_genome_size))
-animals3 <- ungroup(animals3)
+animals3 <- 
+  animals %>% 
+  select(organism_name, size_mb) %>% 
+  group_by(organism_name) %>% 
+  mutate(n = n(), mean_genome_size = mean(size_mb)) %>% 
+  arrange(organism_name, desc(mean_genome_size)) %>% 
+  ungroup()
+
 animals3
 tail(animals3)
 dim(animals3)
 
-
-## The pipe operator!!!
+## group-wise summarise
 animals4 <- animals %>%
   select(subgroup, size_mb) %>% 
   filter(!is.na(subgroup)) %>%
   group_by(subgroup) %>%
-  summarize(n = n(), mean_genome_size = mean(size_mb)) %>%
+  summarise(n = n(), mean_genome_size = mean(size_mb)) %>%
   arrange(desc(mean_genome_size))
 
 animals4
 dim(animals4)
 
-# restart a new session
+# Go to scripts/exercises_dplyr.R

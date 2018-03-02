@@ -4,11 +4,6 @@
 # load the package tidyverse
 library(tidyverse)
 
-# It is suggested that you update your packages regularly
-# If you want to do so, please uncomment the following line
-# tidyverse_update()
-# You will get this message: All tidyverse packages up-to-date
-
 # ------------------------------------------------------------------------------
 # Introduction to tidy data
 
@@ -70,5 +65,5 @@ animals %>%
 # Save last plot
 ggsave("plots/boxplot_features_subgroup.png")
 
-# Go to exercise chapter 3
-# restart a new session
+
+# Go to scripts/exercises_tidyr.R
