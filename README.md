@@ -60,7 +60,7 @@ Treat any generated output as disposable.
 
 ## Attribution
 
-The materials presented here are an updated version of  https://github.com/SWittouck/tidyverse_workshop for the workshop ["Handle your data the tidy way: Data science using R and the tidyverse"](https://bbc2017blog.wordpress.com/workshops/) given at the [Benelux Bioinformatics Conference 2017](https://bbc2017blog.wordpress.com/) by [Sander Wuyts](https://github.com/swuyts) and [Stijn Wittouck](https://github.com/SWittouck). 
+The materials presented here are an updated version of  https://github.com/SWittouck/tidyverse_workshop for the workshop ["Handle your data the tidy way: Data science using R and the tidyverse"](https://bbc2017blog.wordpress.com/workshops/) given at the [Benelux Bioinformatics Conference 2017](https://bbc2017blog.wordpress.com/) by [Sander Wuyts](https://github.com/swuyts) and [Stijn Wittouck](https://github.com/SWittouck). The idea is that the four workshops given in Belgium between Feb and March will have the same format. 
 
 Then again, these are open education materials for people who want to learn about R and tidyverse. These materials have been prepared by [Paula Andrea Martinez](https://twitter.com/orchid00) and are available under a creative commons license, please see [LICENSE.md](LICENSE.md)
 
