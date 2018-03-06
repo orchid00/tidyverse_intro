@@ -4,7 +4,7 @@
 # Author:
 # Note: - The exercises can have multiple solutions.
 #       - It is recommended to start new session for each script 
-#       (Session > New Session)
+#       (Session , Restart R)
 
 # If you haven't installed tidyverse, please uncomment the following line
 # install.packages("tidyverse")
@@ -12,7 +12,7 @@
 # load the package tidyverse
 library(tidyverse)
 
-## 1. Import the file otutable.tsv as a tibble. 
+## 1. Read in the file otutable.tsv 
 
 
 ## 2. Tidy the tibble. 
@@ -20,6 +20,7 @@ library(tidyverse)
 ## resulting dimensions: 152360x3
 
 
+## From now on use the last tible created
 ## 3. Visualise the distribution of abundance using a density plot.
 
 
@@ -35,10 +36,10 @@ library(tidyverse)
 ## Resulting dimensions: 30472x5
 
 
-## 6. Visualise the distribution of mean_taxon_rel_ab using a density plot.
+## 6. Extra: Visualise the distribution of mean_taxon_rel_ab using a density plot.
 
 
-## 7. Make a tile plot to visualise mean_taxon_rel_ab. 
+## 7. Extra: Make a tile plot to visualise mean_taxon_rel_ab. 
 ## Put the sample on the x-axis and taxon on the y-axis. 
 ## Extra: Which taxa is the one with higher value of mean_taxon_rel_ab?
 

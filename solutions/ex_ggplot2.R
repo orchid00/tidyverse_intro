@@ -1,7 +1,7 @@
 # Description: Introduction to tidyverse
 # Exercises ggplot2
 # Note: The exercises can have multiple solutions, feel free to do it differently
-# Note: recommended to start new session for each script (Session > New Session)
+# Note: recommended to start new session for each script (Session , Restart R)
 
 # If you haven't installed tidyverse, please uncomment the following line
 # install.packages("tidyverse")
@@ -28,7 +28,7 @@ ggplot(sampledata, aes(x = nationality)) +
   coord_flip()
 ggsave("plots/barplot_flip_nationality.png")
 
-## 5. Create a boxplot showing the age distribution of each nationality.
+## 5. Create a boxplot showing the age distribution for each nationality.
 ## Use the fill aesthetic to make it a little bit more colorful
 ggplot(sampledata, aes(x = nationality, y = age, fill = nationality)) +
   geom_boxplot()

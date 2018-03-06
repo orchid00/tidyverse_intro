@@ -1,7 +1,7 @@
 # Description: Introduction to tidyverse
 # Exercises dplyr
 # Note: The exercises can have multiple solutions, feel free to do it differently
-# Note: recommended to start new session for each script (Session > New Session)
+# Note: recommended to start new session for each script (Session , Restart R)
 
 # If you haven't installed tidyverse, please uncomment the following line
 # install.packages("tidyverse")
@@ -41,3 +41,7 @@ ggplot(mysamples_summary,
 ggsave("plots/barplot_nationality_bmi.png",
        width = 7, height = 7
 )
+
+## 5. Extra filter out European nationalities
+mysamples_summary %>% 
+  filter(!str_detect(nationality, "Europe"))

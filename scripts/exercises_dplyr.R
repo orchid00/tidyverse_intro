@@ -4,7 +4,7 @@
 # Author:
 # Note: - The exercises can have multiple solutions.
 #       - It is recommended to start new session for each script 
-#       (Session > New Session)
+#       (Session , Restart R)
 
 # If you haven't installed tidyverse, please uncomment the following line
 # install.packages("tidyverse")
@@ -12,7 +12,7 @@
 # load the package tidyverse
 library(tidyverse)
 
-## 1. Import the file sampledata.tsv as a tibble.
+## 1. Import the file sampledata.tsv.
 
 
 ## 2. Select nationality and bmi_group and filter out all rows where 
@@ -27,9 +27,11 @@ library(tidyverse)
 
 
 ## 4. Make a bar plot to inspect whether some nationalities have more overweight
-## participants than others. 
-## Extra: Invert the axis and use a palette colour called “Set3”, change the 
+## participants than others, using mysamples_summary. 
+## Extra: Flip the axis and use a palette colour called “Set3”, change the 
 ## default theme. Save the plot in plots
 
+## 5. Extra: use mysamples_summary and filter out the nationalities with 
+## "Europe" in the name. Hint: resulting dimensions 15 x 3
 
 ## Keep up the hard work!! 

@@ -1,6 +1,6 @@
 # Description: Introduction to tidyverse
 # Example
-# Note: recommended to start new session for each script (Session > New Session)
+# Note: recommended to start new session for each script (Session , Restart R)
 
 # If you haven't installed tidyverse, please uncomment the following line
 # install.packages("tidyverse")

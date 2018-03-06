@@ -48,7 +48,7 @@ ggplot(animals,
        mapping = aes(x = size_mb)) +
   geom_density()
 
-# It is skewed distribution
+# It is a skewed distribution
 
 ## summarise 
 summarise(animals, n = n(), mean_genome_size = mean(size_mb, na.rm = TRUE))

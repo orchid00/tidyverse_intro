@@ -1,7 +1,7 @@
 # Description: Introduction to tidyverse
 # Exercises tidyr
 # Note: The exercises can have multiple solutions, feel free to do it differently
-# Note: recommended to start new session for each script (Session > New Session)
+# Note: recommended to start new session for each script (Session , Restart R)
 
 # If you haven't installed tidyverse, please uncomment the following line
 # install.packages("tidyverse")
@@ -57,10 +57,11 @@ otutable_filtered <-
 dim(otutable_filtered)
 head(otutable_filtered)
 
+## 6. Density plot 
 ggplot(data = otutable_filtered, aes(x = mean_taxon_rel_ab)) +
   geom_density()
 
-## 6. Tile plot
+## 7. Tile plot
 ggplot(data = otutable_filtered,
   aes(x = sample, y = taxon)) +
   geom_tile(aes(fill = mean_taxon_rel_ab)) 
@@ -68,7 +69,7 @@ ggsave("plots/title_sample_taxon_abundance.png",
   width = 7, height = 12
 )
 
-## 6. extra
+## 7. extra
 otutable_filtered %>% 
   group_by(taxon) %>% 
   summarise(max_rel_ab = max(mean_taxon_rel_ab)) %>% 
