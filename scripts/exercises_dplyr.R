@@ -31,7 +31,9 @@ library(tidyverse)
 ## Extra: Flip the axis and use a palette colour called “Set3”, change the 
 ## default theme. Save the plot in plots
 
+
 ## 5. Extra: use mysamples_summary and filter out the nationalities with 
 ## "Europe" in the name. Hint: resulting dimensions 15 x 3
+
 
 ## Keep up the hard work!! 
