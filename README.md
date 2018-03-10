@@ -64,7 +64,7 @@ The materials presented here are an updated version of  https://github.com/SWitt
 
 ## License
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a><br />These are open education materials for people who want to learn about R and tidyverse. These materials have been prepared by [Paula Andrea Martinez](https://twitter.com/orchid00) and are available under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution 4.0 International License</a>., please see [LICENSE.md](LICENSE.md) for more details.
+<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />These are open education materials for people who want to learn about R and tidyverse. These materials have been prepared by [Paula Andrea Martinez](https://twitter.com/orchid00) and are available under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution 4.0 International License</a>., please see [LICENSE.md](LICENSE.md) for more details.
 
 
 ## Resources
