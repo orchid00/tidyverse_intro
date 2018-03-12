@@ -1,7 +1,7 @@
 # Introduction to tidyverse
 
 - Do you have some basic experience using R or other programming language?
-- Do you look for an option to help you analysing your data and communicating 
+- Do you look for an option to help you analyse your data and communicating 
 results in a reproducible way?
 
 Then this workshop is for you!
@@ -21,7 +21,7 @@ If you want to know more about tidyverse check its [website](https://www.tidyver
 - Introduction to data manipulation with dplyr
 - Introduction to tidy data with tidyr
 
-## Learning outcomes goals
+## Learning outcome goals
 
 After the workshop you will be able to:
 - Describe the difference between tidy and untidy data
@@ -69,6 +69,5 @@ The materials presented here are an updated version of  https://github.com/SWitt
 
 ## Resources
 
-For your own R learning and discovery, I've made a collection of resources for 
-you to use
-[resources](https://github.com/orchid00/R4da/blob/master/resources.md)
+For your own R learning and discovery, here is a personal collection of resources for 
+you to use. [R resources](https://github.com/orchid00/R4da/blob/master/resources.md)
