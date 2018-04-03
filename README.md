@@ -39,7 +39,7 @@ Install the complete tidyverse with:
 - You can clone or download this repository to your computer.
 - We will go trough the material together and allow sufficient time for exercises and questions and solutions.
 
-# How to do use this material for self learning
+## How to use this material for self learning
 
 - If you do this on your own start by opening the slides folder and go through the ppt. 
     - Chapter 1 is an introduction
