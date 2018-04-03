@@ -37,8 +37,17 @@ Install the complete tidyverse with:
 ## How is this repository structured?
 
 - You can clone or download this repository to your computer.
-- We will go trough the material together and allow sufficient time for exercises and questions.
-- If you do this on your own the slides will inform you more.
+- We will go trough the material together and allow sufficient time for exercises and questions and solutions.
+
+# How to do use this material for self learning
+
+- If you do this on your own start by opening the slides folder and go through the ppt. 
+    - Chapter 1 is an introduction
+    - Chapter 2 is about ggplot2 - read the chapter and then follow the demo from examples/demo_ggplot2.R - then do the exercises from scripts/exercises_ggplot2.R
+    - Chapter 3 is about dplyr - read the chapter and then follow the demo from examples/demo_dplyr.R - then do the exercises from scripts/exercises_dplyr.R
+    - Chapter 4 is about tidyr - read the chapter and then follow the demo from examples/demo_tidyr.R - then do the exercises from scripts/exercises_tidyr.R
+    - The last part are examples and useful functions which are good to check for further learning
+
 
 ### Directory layout
 
